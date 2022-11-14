@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+  body {
+    background-color: rgba(221, 221, 221, 0.89);
+  }
+
+  .NavBar {
+    background-color: rgba(29, 29, 29, 0.959);
+    display: flex;
+    height: 150px;
+  }
+
+  .Logo {
+    position: relative;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 60px;
+    max-width: 300px;
+    top: 25%;
+  }
+  
+  .links {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    max-width: 300px;
+    margin: 30px;
+    color: rgba(255, 255, 255, 0.788);
+    align-items: center;
+  }
+
+  .Pages {
+    max-width: 300px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 30px;
+    left: 20%;
+    top: 45%;
+  }
+  
+  .Menus {
+    position: relative;
+    font-size: 30px;
+    left: 35%;
+    text-align: center;
+    max-width: 600px;
+    top: 40%;
+  }
+  
+  .contadorBoton {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
+  }
+
+  .productoContenedor {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 250px;
+  }
+
+  .productoContenedordetalles {
+    background-color: rgba(29, 29, 29, 0.959);
+    color: rgba(255, 255, 255, 0.788);
+    width: 200px;
+    border-radius: 0px 50px 50px 0px;
+  }
+
+  .precio {
+    padding: 30px 0px 0px 30px;
+    font-size: 50px;
+  }
+
+  .unidades {
+    padding: 30px 30px 30px 50px;
+    font-size: 30px;
+  }
+
+  .detalles {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 90px;
+    height: 10px;
+    padding: 0px 0px 30px 50px;
+    font-size: 30px;
+    left: 30px;
+    border-radius: 30px;
+  }
+
+  .detalles a{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(29, 29, 29, 0.959);
+  }
+
+  .productoImagen {
+    width: 350px;
+    border-radius: 50px 0px 0px 50px;
+  }
+
+  .ItemListContainerDisplay {
+    background-color: rgb(35, 36, 34);
+    color: rgba(255, 255, 255, 0.788);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+  
+  .productoDetallecontainer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .detalleImagencontainer{
+    display: flex;
+    max-width: 700px;
+  }
+
+  .Imagen {
+    width: 700px;
+    height: 600px;
+    border-radius: 50px 0px 0px 50px;
+  }
+
+  .infoContainer {
+    background-color: rgb(35, 36, 34);
+    color: rgba(255, 255, 255, 0.788);
+    border-radius: 0px 50px 50px 0px;
+    width: 800px;
+    height: 600px;
+  }
+
+  .infoContainer h1 {
+    font-size: 80px;
+    position: relative;
+    margin: 0 30%;
+  }
+
+  .infoContainer p {
+    font-size: 30px;
+    margin: 0 10%;
+  }
+
+  .infoContainer span {
+    font-size: 60px;
+    margin: 0 20%;
+  }
+   
+  .detalleContador {
+    position: relative;
+    left: 55%;
+    top: 5%;
+    max-height: 60px;
+    max-width: 300px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: rgb(35, 36, 34);
+    font-size: 20px;
+  }
+
+  .detalleContador span {
+    font-size: 30px;
+  }
